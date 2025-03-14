@@ -15,3 +15,4 @@ barplot(fruit_sales$Sales, names.arg = fruit_sales$Fruit,
 # 绘制扇形图
 pie(fruit_sales$Sales, labels = fruit_sales$Fruit, main = "水果销售量扇形图", col = rainbow(length(fruit_sales$Fruit)))
 # ... existing code ...
+
